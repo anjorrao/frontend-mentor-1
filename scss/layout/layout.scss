@@ -1,0 +1,26 @@
+@import "../base/base.scss";
+
+/*========== Card Position ==========*/
+.card-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-size: cover;
+}
+
+/*============ Footer ===========*/
+footer {
+	padding: 0.5em;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+  background-color: $font-color;
+	color: $white;
+
+	a {
+		color: $light-gray;
+	}
+}

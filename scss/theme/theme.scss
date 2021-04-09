@@ -1,0 +1,28 @@
+@import "../base/base.scss";
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+	font-size: $font-size;
+	color: $font-color;
+	background-color: $primary-color;
+	background-image: url('../../images/bg-pattern-top.svg'), url('../../images/bg-pattern-bottom.svg');
+	background-position: top -350px left -40%, bottom -510px right -35%;
+	background-size: 60%;
+	background-repeat: no-repeat;
+}
+
+.text-muted {
+	color: $text-muted;
+}
+
+.font-bold {
+	font-weight: 700;
+}
+
+.font-medium {
+	font-size: $font-size-sm;
+}
+
+.font-small {
+	font-size: $font-size-xs;
+}
